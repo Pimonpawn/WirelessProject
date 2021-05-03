@@ -20,7 +20,7 @@ class Chart extends StatelessWidget {
         if (recentTransaction[i].date.day == weekDay.day &&
             recentTransaction[i].date.month == weekDay.month &&
             recentTransaction[i].date.year == weekDay.year) {
-          totalSum = recentTransaction[i].amount;
+          totalSum += recentTransaction[i].amount;
         }
       }
 

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -100,15 +98,25 @@ class _NewTransactionState extends State<NewTransaction> {
                 ),
               ),
               ElevatedButton(
-                child: Text('Add Transaction'),
+                child: Text('Add Expense'),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.green, // background
+                  primary: Colors.orangeAccent, // background
                   onPrimary: Colors.white, // foreground
                 ),
                 onPressed: _submitData,
                 // print(titleInput);
                 // print(amountInput);
-              )
+              ),
+              // ElevatedButton(
+              //   child: Text('Add Budget'),
+              //   style: ElevatedButton.styleFrom(
+              //     primary: Colors.green, // background
+              //     onPrimary: Colors.white, // foreground
+              //   ),
+              //   onPressed: _submitData,
+              //   // print(titleInput);
+              //   // print(amountInput);
+              // )
             ],
           ),
         ),

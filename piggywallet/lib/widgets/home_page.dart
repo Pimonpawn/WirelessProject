@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Show Cart',
+                    'Show Chart',
                     style: Theme.of(context).textTheme.title,
                   ),
                   Switch.adaptive(
